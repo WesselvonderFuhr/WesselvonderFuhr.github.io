@@ -1,0 +1,45 @@
+body {
+    background-image: url("resources/background.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #bbccd3;
+}
+select{
+    position: absolute;
+    width: 48px;
+    height: 18px;
+}
+option.red {background-color: #e72d28;}
+option.green {background-color: #17b026}
+option.blue {background-color: #18b8d8;}
+option.black {background-color: #000000;}
+option.yellow {background-color: #e6e615;}
+
+.no_hover {        
+    background-color: #000000;
+}
+
+#scores{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 800px;
+}
+
+#track1{
+    top: 364px;
+    left: 136px;
+    transform: rotate(7deg);
+}
+#track2{
+    top: 411px;
+    left: 250px;
+    transform: rotate(-83deg);
+    width: 46px;
+}
+
+#track3{
+    top: 582px;
+    left: 155px;
+    transform: rotate(-32deg);
+}
+
